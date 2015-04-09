@@ -2,11 +2,12 @@
   
   <ion-content>
 
-       <ion-scroll id="scroll" direction="y" >
+      
     <ion-refresher
     on-refresh="doRefresh()">
   </ion-refresher>
-      <article href="#/app/event/2" class="card-list-style-1" ng-repeat="e in numberOfEvents track by $index">
+  <ion-list>
+      <ion-item class="card-list-style-1"  ng-repeat="e in numberOfEvents track by $index">
         <div id="site" class="card-image">
           <a href="#"><img ng-src="{{ myData[e].imageUrl }}"></a>
           <div class="event-meta-grp">
@@ -42,14 +43,12 @@
 
          
               <div class="like-avatar" ng-repeat="i in likesArray[e] track by $index" >
-                <img class="profileIcon" ng-src="{{ myData[e].likes[i].profileUrl }}"></div>
+                <img class="profileIcon" ng-src="{{ myData[e].likes[i].profileUrl }}">
               </div>
+            
        
-        </div>
-      </article>
-      
-     
- </ion-scroll>
-
+        
+    </ion-item>
+</ion-list>
   </ion-content>
 </ion-view>

@@ -33,7 +33,9 @@ services.factory('EventFactory', function ($http) {
             
                 console.log($scope.myData);
 
-          	}).finally(function() {
+          	}).finally(function(){
+
+
              // Stop the ion-refresher from spinning
              $scope.$broadcast('scroll.refreshComplete');
              });

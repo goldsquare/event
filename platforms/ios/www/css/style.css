@@ -1,6 +1,7 @@
-/* Empty. Add your own CSS if you like */
-
-
+#bod
+{
+	background-color: black;
+}
 #headerSearch
 {
 	width: 100%;
@@ -17,7 +18,7 @@
 }
 #site
 {
-	margin-top: 40px;
+	margin-top: 0px;
 }
 #scroll
 {
