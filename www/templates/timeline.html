@@ -1,0 +1,55 @@
+<ion-view view-title="Timeline">
+  
+  <ion-content>
+
+       <ion-scroll id="scroll" direction="y" >
+    <ion-refresher
+    on-refresh="doRefresh()">
+  </ion-refresher>
+      <article id="card" href="#/app/event/2" class="card-list-style-1"  ng-repeat="e in numberOfEvents track by $index">
+        <div id="site" class="card-image">
+          <a href="#"><img ng-src="{{ myData[e].imageUrl }}"></a>
+          <div class="event-meta-grp">
+            <div class="event-date">
+              <span  class="event-month">{{ myData[e].month }}</span>
+              <span  class="event-day">{{ myData[e].day }}</span>
+            </div>
+           
+            <div class="event-cat">
+              <a href="#"> {{ myData[e].genre }}</a>
+            </div>
+        
+          </div>
+          <div class="card-title">
+            <a href="#">
+              <h3 class="event-title">{{ myData[e].eventName }}</h3>
+              <h6 class="event-location">{{ myData[e].address }}</h6>
+               <h6 class="event-location">{{ myData[e].city }} , {{ myData[e].state }} {{ myData[e].zipcode }}</h6>
+            </a>
+          </div>
+        </div>
+        <div class="card-action clearfix valign-wrapper">
+          <div class="like-ind-grp valign">
+            <button class="button button-clear" ng-click="like(e)">
+              <span class="">
+                <i ng-click="like()" id="likeIcon{{$index}}" class="mdi-action-favorite"></i>
+              </span>
+              <span class="like-ind-num">{{ likes[e]-1 }}</span>
+            </button>
+          </div>
+          <div>
+          </div>
+
+         
+              <div class="like-avatar" ng-repeat="i in likesArray[e] track by $index" >
+                <img class="profileIcon" ng-src="{{ myData[e].likes[i].profileUrl }}"></div>
+              </div>
+       
+        </div>
+      </article>
+      
+     
+ </ion-scroll>
+
+  </ion-content>
+</ion-view>
