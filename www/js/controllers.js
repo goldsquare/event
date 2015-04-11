@@ -33,10 +33,11 @@ angular.module('starter.controllers', [])
   };
 })
 
-.controller('EventCtrl', function ($scope, $stateParams, FbLoginFactory, TwitterLoginFactory, LikeFactory, EventFactory, DateFactory) {
 
+.controller('EventCtrl', function ($http,$scope, $stateParams, FbLoginFactory, TwitterLoginFactory, LikeFactory, EventFactory, DateFactory) {
 
-      EventFactory.get($scope);
+      EventFactory.get($scope, $stateParams);
+
 
        $scope.like = function (id)
         {

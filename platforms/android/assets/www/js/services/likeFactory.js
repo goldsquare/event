@@ -9,8 +9,9 @@ var myData = new Firebase('https://vivid-inferno-434.firebaseio.com');
 
             return{
               like: function($scope, id){ 
-                
-                
+                    
+                    console.log('like');
+
                   if(currentUser == "")
                     {
                       alert('must be logged in to like');
@@ -79,6 +80,7 @@ var myData = new Firebase('https://vivid-inferno-434.firebaseio.com');
               }
               
                   }
+
             }
 
 });

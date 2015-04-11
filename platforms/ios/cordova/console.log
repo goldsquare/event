@@ -1,0 +1,41 @@
+2015-04-11 16:26:39.959 event[2154:103707] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/david/Library/Developer/CoreSimulator/Devices/B064285F-4F9C-4757-A377-72EB9E07850F/data/Containers/Data/Application/6FEAE454-A1CE-41BD-9176-E1E52576B97B/Library/Cookies/Cookies.binarycookies
+2015-04-11 16:26:40.166 event[2154:103707] Apache Cordova native platform version 3.7.0 is starting.
+2015-04-11 16:26:40.166 event[2154:103707] Multi-tasking -> Device: YES, App: YES
+2015-04-11 16:26:40.177 event[2154:103707] Unlimited access to network resources
+2015-04-11 16:26:40.525 event[2154:103707] [CDVTimer][keyboard] 0.063002ms
+2015-04-11 16:26:40.525 event[2154:103707] [CDVTimer][TotalPluginStartup] 0.247002ms
+2015-04-11 16:26:40.710 event[2154:103707] Resetting plugins due to page load.
+2015-04-11 16:26:41.435 event[2154:103707] Finished load of: file:///Users/david/Library/Developer/CoreSimulator/Devices/B064285F-4F9C-4757-A377-72EB9E07850F/data/Containers/Bundle/Application/FDE507E2-352D-4171-836F-5A19622CF14F/event.app/www/index.html#/app/timeline
+2015-04-11 16:35:36.489 event[2470:112068] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/david/Library/Developer/CoreSimulator/Devices/B064285F-4F9C-4757-A377-72EB9E07850F/data/Containers/Data/Application/D5710318-3C65-4DA6-890B-CCD8D2CCE3FA/Library/Cookies/Cookies.binarycookies
+2015-04-11 16:35:36.634 event[2470:112068] Apache Cordova native platform version 3.7.0 is starting.
+2015-04-11 16:35:36.634 event[2470:112068] Multi-tasking -> Device: YES, App: YES
+2015-04-11 16:35:36.635 event[2470:112068] Unlimited access to network resources
+2015-04-11 16:35:36.818 event[2470:112068] [CDVTimer][keyboard] 0.057995ms
+2015-04-11 16:35:36.818 event[2470:112068] [CDVTimer][TotalPluginStartup] 0.235021ms
+2015-04-11 16:35:36.870 event[2470:112068] Resetting plugins due to page load.
+2015-04-11 16:35:37.231 event[2470:112068] Finished load of: file:///Users/david/Library/Developer/CoreSimulator/Devices/B064285F-4F9C-4757-A377-72EB9E07850F/data/Containers/Bundle/Application/1D4A2CB8-F9D5-4F17-8E7B-C3BB15055D33/event.app/www/index.html#/app/timeline
+2015-04-11 16:35:46.422 event[2470:112068] facebook
+2015-04-11 16:35:46.614 event[2470:112068] Setting the WebView's frame to {{0, 0}, {375, 623}}
+2015-04-11 16:35:46.631 event[2470:112068] THREAD WARNING: ['InAppBrowser'] took '208.364990' ms. Plugin should use a background thread.
+2015-04-11 16:35:46.656 event[2470:112068] Doing login [object Object]
+2015-04-11 16:36:21.291 event[2470:112068] Vert Lovinthislife
+2015-04-11 16:36:22.110 event[2470:112068] {"__v":0,"username":"Vert Lovinthislife","profileUrl":"https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xaf1/v/t1.0-1/p100x100/382755_268709136514395_1953705844_n.jpg?oh=5b0a2ab7fdf40af257d2787d94127c3f&oe=559D9632&__gda__=1437468735_dce9edf1a05f448c67d628083bda37f5","_id":"552985c500c98a57016b90c3","date":"2015-04-11T20:36:21.973Z"}
+2015-04-11 16:36:26.175 event[2470:112068] like
+2015-04-11 16:36:26.549 event[2470:112068] false
+2015-04-11 16:36:26.549 event[2470:112068] adding like
+2015-04-11 16:36:26.622 event[2470:112068] {"_id":"55234352b3e4cfaf010a8d5f","user":"Dev ByDave","eventName":"Stevie Wonder Live ","genre":"soul","state":"Georgia","city":"Atlanta ","address":"4511 Peachtree rd ","zipcode":45125,"month":"April","day":5,"year":2015,"imageUrl":"https://shawns3.s3.amazonaws.com/0.9610388344153762","__v":0,"date":"2015-04-07T02:39:14.790Z","likes":[{"user":"","profileUrl":"","_id":"55234352b3e4cfaf010a8d60"},{"user":"Shawn Johnson","profileUrl":"https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/p100x100/10440811_10152515506703234_3350313514659534734_n.jpg?oh=8c05866078f9ce59a233a1a98350d263&oe=559EE5D6&__gda__=1437474375_1291ded7916224a29c925d949ea6c5ee","_id":"5528630671a2535901cab5d8"}]}
+2015-04-11 16:36:36.049 event[2470:112068] twitter
+2015-04-11 16:36:36.190 event[2470:112068] Setting the WebView's frame to {{0, 0}, {375, 623}}
+2015-04-11 16:36:36.196 event[2470:112068] THREAD WARNING: ['InAppBrowser'] took '146.352051' ms. Plugin should use a background thread.
+2015-04-11 16:36:36.210 event[2470:112068] Doing login [object Object]
+2015-04-11 16:37:10.309 event[2470:112068] logged in to twitter
+2015-04-11 16:37:10.309 event[2470:112068] _goldsquare
+2015-04-11 16:37:15.851 event[2470:112068] like
+2015-04-11 16:37:15.935 event[2470:112068] false
+2015-04-11 16:37:15.935 event[2470:112068] adding like
+2015-04-11 16:37:16.006 event[2470:112068] {"_id":"55234352b3e4cfaf010a8d5f","user":"Dev ByDave","eventName":"Stevie Wonder Live ","genre":"soul","state":"Georgia","city":"Atlanta ","address":"4511 Peachtree rd ","zipcode":45125,"month":"April","day":5,"year":2015,"imageUrl":"https://shawns3.s3.amazonaws.com/0.9610388344153762","__v":0,"date":"2015-04-07T02:39:14.790Z","likes":[{"user":"","profileUrl":"","_id":"55234352b3e4cfaf010a8d60"},{"user":"Shawn Johnson","profileUrl":"https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/p100x100/10440811_10152515506703234_3350313514659534734_n.jpg?oh=8c05866078f9ce59a233a1a98350d263&oe=559EE5D6&__gda__=1437474375_1291ded7916224a29c925d949ea6c5ee","_id":"5528630671a2535901cab5d8"},{"user":"Vert Lovinthislife","profileUrl":"https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xaf1/v/t1.0-1/p100x100/382755_268709136514395_1953705844_n.jpg?oh=5b0a2ab7fdf40af257d2787d94127c3f&oe=559D9632&__gda__=1437468735_dce9edf1a05f448c67d628083bda37f5","_id":"552985ca00c98a57016b90c4"}]}
+2015-04-11 16:38:03.581 event[2470:112068] facebook
+2015-04-11 16:38:03.720 event[2470:112068] Setting the WebView's frame to {{0, 0}, {375, 623}}
+2015-04-11 16:38:03.725 event[2470:112068] THREAD WARNING: ['InAppBrowser'] took '144.173828' ms. Plugin should use a background thread.
+2015-04-11 16:38:03.739 event[2470:112068] Doing login [object Object]
+2015-04-11 16:38:05.620 event[2470:112068] Vert Lovinthislife

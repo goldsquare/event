@@ -1,4 +1,5 @@
 /Users/david/desktop/event/platforms/android/ant-build/classes.dex : \
+/Users/david/desktop/event/platforms/android/ant-build/classes/com/bez4pieci/cookies/Cookies.class \
 /Users/david/desktop/event/platforms/android/ant-build/classes/com/ionic/keyboard/IonicKeyboard$1.class \
 /Users/david/desktop/event/platforms/android/ant-build/classes/com/ionic/keyboard/IonicKeyboard$2.class \
 /Users/david/desktop/event/platforms/android/ant-build/classes/com/ionic/keyboard/IonicKeyboard$3.class \
@@ -11,4 +12,18 @@
 /Users/david/desktop/event/platforms/android/ant-build/classes/com/ionicframework/event466250/R$xml.class \
 /Users/david/desktop/event/platforms/android/ant-build/classes/com/ionicframework/event466250/R.class \
 /Users/david/desktop/event/platforms/android/ant-build/classes/org/apache/cordova/device/Device.class \
+/Users/david/desktop/event/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$1.class \
+/Users/david/desktop/event/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$2.class \
+/Users/david/desktop/event/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$3.class \
+/Users/david/desktop/event/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$4$1.class \
+/Users/david/desktop/event/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$4.class \
+/Users/david/desktop/event/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$5$1.class \
+/Users/david/desktop/event/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$5$2.class \
+/Users/david/desktop/event/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$5$3.class \
+/Users/david/desktop/event/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$5$4.class \
+/Users/david/desktop/event/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$5.class \
+/Users/david/desktop/event/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$InAppBrowserClient.class \
+/Users/david/desktop/event/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser.class \
+/Users/david/desktop/event/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowserDialog.class \
+/Users/david/desktop/event/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppChromeClient.class \
 /Users/david/desktop/event/platforms/android/ant-build/dexedLibs/classes-8ebc550601897d2c8f70e5cce7495b11.jar \

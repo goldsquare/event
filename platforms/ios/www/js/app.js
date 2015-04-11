@@ -66,8 +66,8 @@ angular.module('starter',
       }
     })
 
-  .state('app.single', {
-    url: "/timeline/:eventId",
+  .state('app.event', {
+    url: "/event/:eventId",
     views: {
       'menuContent': {
         templateUrl: "templates/event.html",

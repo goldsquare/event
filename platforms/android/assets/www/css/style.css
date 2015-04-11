@@ -1,6 +1,27 @@
-/* Empty. Add your own CSS if you like */
+#detailTitle
+{
+	margin-left: 40%;
+}
+#detailLikes
+{
+	margin-left: 50%
+}
+#detailName
+{
+	margin-left: 43%;
+}
+#detailImage
+{
+	margin-left: 20%;
+	margin-top: 20px;
+	width: 70%;
+	height: 50%;
 
-
+}
+#bod
+{
+	background-color: black;
+}
 #headerSearch
 {
 	width: 100%;
@@ -17,7 +38,7 @@
 }
 #site
 {
-	margin-top: 40px;
+	margin-top: 0px;
 }
 #scroll
 {

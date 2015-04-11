@@ -8,13 +8,16 @@ services.factory('EventFactory', function ($http) {
 
        return {
 
-          get: function($scope){
+          get: function($scope, $stateParams){
             $scope.likesArray = [];
           	$scope.numberOfEvents = [];
             $scope.myData = [];
             $scope.likes = [];
             var realLikes = [];
             
+            var id = $stateParams.eventId;
+            $scope.detail = "";
+
             // returun through the data in API
           	$http.get(url).success( function (data) {
               //console.log(data.length);
@@ -24,14 +27,19 @@ services.factory('EventFactory', function ($http) {
                   $scope.numberOfEvents.push(i);
                   eventIds.push(data[i]._id);
                   $scope.likes.push(data[i].likes.length);
-          		 
+          		    
+                  if(id == $scope.myData[i]._id)
+                  {
+                    $scope.detail = $scope.myData[i];
+                  }
+
                }
 
                  $scope.myData.reverse();
                 $scope.likes.reverse();
                 eventIds.reverse();
             
-                console.log($scope.myData);
+               // console.log($scope.myData);
 
           	}).finally(function(){
 
