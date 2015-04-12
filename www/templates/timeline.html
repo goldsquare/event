@@ -1,13 +1,13 @@
 <ion-view view-title="Timeline">
-  
+
   <ion-content>
-  
+
 
     <ion-refresher
     on-refresh="doRefresh()">
   </ion-refresher>
   <ion-list>
-      <ion-item class="card-list-style-1"  ng-repeat="e in numberOfEvents track by $index">
+      <ion-item class="card-list-style-1 list"  ng-repeat="e in numberOfEvents track by $index" can-swipe='true'>
         <div id="site" class="card-image">
           <a href="#/app/event/{{ myData[e]._id }}"><img ng-src="{{ myData[e].imageUrl }}"></a>
           <div class="event-meta-grp">
@@ -15,11 +15,11 @@
               <span  class="event-month">{{ myData[e].month }}</span>
               <span  class="event-day">{{ myData[e].day }}</span>
             </div>
-           
+
             <div class="event-cat">
               <a href="#"> {{ myData[e].genre }}</a>
             </div>
-        
+
           </div>
           <div class="card-title">
             <a href="#">
@@ -30,7 +30,7 @@
           </div>
         </div>
         <div class="card-action clearfix valign-wrapper">
-          <h3>{{ likes[e]-1 }} Likes</h3>
+          <h3>{{ likes[e]-1 }} People are going</h3>
           <!-- <div class="like-ind-grp valign">
             <button class="button button-clear" ng-click="like(e)">
               <span class="">
@@ -43,14 +43,14 @@
           <div>
 
           </div>
-    <ion-option-button ng-click="like(e)" id="likeIcon{{$index}}" class="button  icon ion-happy"</ion-option-button>
-         
+    <ion-option-button ng-click="like(e)" id="likeIcon{{$index}}" class="button  icon ion-happy">RSVP</ion-option-button>
+
               <div class="like-avatar" ng-repeat="i in likesArray[e] track by $index" >
                 <img class="profileIcon" ng-src="{{ myData[e].likes[i].profileUrl }}">
               </div>
-            
-       
-        
+
+
+
     </ion-item>
 </ion-list>
   </ion-content>
