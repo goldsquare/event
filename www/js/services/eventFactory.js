@@ -17,7 +17,7 @@ services.factory('EventFactory', function ($http) {
             
             var id = $stateParams.eventId;
             $scope.detail = "";
-
+              
             // returun through the data in API
           	$http.get(url).success( function (data) {
               //console.log(data.length);

@@ -7,9 +7,11 @@
     on-refresh="doRefresh()">
   </ion-refresher>
   <ion-list>
-      <ion-item class="card-list-style-1 list"  ng-repeat="e in numberOfEvents track by $index" can-swipe='true'>
+      <ion-item class="card"  ng-repeat="e in numberOfEvents track by $index" can-swipe='true'>
         <div id="site" class="card-image">
-          <a href="#/app/event/{{ myData[e]._id }}"><img ng-src="{{ myData[e].imageUrl }}"></a>
+          <a href="#/app/event/{{ myData[e]._id }}">
+            <img id="eventImage" ng-src="{{ myData[e].imageUrl }}">
+          </a>
           <div class="event-meta-grp">
             <div class="event-date">
               <span  class="event-month">{{ myData[e].month }}</span>
