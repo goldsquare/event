@@ -7,7 +7,7 @@
     on-refresh="doRefresh()">
   </ion-refresher>
   <ion-list>
-      <ion-item class="card"  ng-repeat="e in numberOfEvents track by $index" can-swipe='true'>
+      <ion-item class="card-image-list"  ng-repeat="e in numberOfEvents track by $index" can-swipe='true'>
         <div id="site" class="card-image">
           <a href="#/app/event/{{ myData[e]._id }}">
             <img id="eventImage" ng-src="{{ myData[e].imageUrl }}">
@@ -25,13 +25,13 @@
           </div>
           <div class="card-title">
             <a href="#">
-              <h3 class="event-title">{{ myData[e].eventName }}</h3>
+              <h2 class="event-title">{{ myData[e].eventName }}</h2>
               <h6 class="event-location">{{ myData[e].address }}</h6>
                <h6 class="event-location">{{ myData[e].city }} , {{ myData[e].state }} {{ myData[e].zipcode }}</h6>
             </a>
           </div>
         </div>
-        <div class="card-action clearfix valign-wrapper">
+        <div class="card-action  valign-wrapper">
           <h3>{{ likes[e]-1 }} People are going</h3>
           <!-- <div class="like-ind-grp valign">
             <button class="button button-clear" ng-click="like(e)">
