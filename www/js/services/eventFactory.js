@@ -7,7 +7,26 @@ var eventIds = [];
 services.factory('EventFactory', function ($http) {
 
        return {
+          getLocation: function($scope, loc)
+          {
+         
+            console.log($scope.numberOfEvents);
+            $scope.numberOfEvents = [];
+            console.log($scope.numberOfEvents);
+               
+    $http.get(url, { params: {city: loc }})
+      .success( function (data) {
 
+          for(var i = 0; i < data.length ; i ++)
+          {
+                $scope.numberOfEvents.push(i);
+          }
+
+          $scope.myData = data;
+
+      });
+
+          },
           get: function($scope, $stateParams){
             $scope.likesArray = [];
           	$scope.numberOfEvents = [];

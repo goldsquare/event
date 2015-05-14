@@ -2,6 +2,20 @@
 
   <ion-content>
 
+<div class="tabs tabs-dark">
+  <a ng-click="getLocation('New York')" class="tab-item">
+    New York
+  </a>
+  <a  ng-click="getLocation('Miami')" class="tab-item">
+    Miami
+  </a>
+  <a ng-click="getLocation('Los Angeles')" class="tab-item">
+    Los Angeles
+  </a>
+    <a ng-click="get()" class="tab-item">
+   All
+  </a>
+</div>
 
     <ion-refresher
     on-refresh="doRefresh()">

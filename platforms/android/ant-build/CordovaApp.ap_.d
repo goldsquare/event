@@ -171,10 +171,8 @@
 /Users/david/desktop/event/platforms/android/assets/www/sass/components/date_picker/_default.date.scss \
 /Users/david/desktop/event/platforms/android/assets/www/sass/components/date_picker/_default.scss \
 /Users/david/desktop/event/platforms/android/assets/www/sass/components/date_picker/_default.time.scss \
-/Users/david/desktop/event/platforms/android/assets/www/templates/browse.html \
 /Users/david/desktop/event/platforms/android/assets/www/templates/event.html \
 /Users/david/desktop/event/platforms/android/assets/www/templates/login.html \
 /Users/david/desktop/event/platforms/android/assets/www/templates/menu.html \
-/Users/david/desktop/event/platforms/android/assets/www/templates/search.html \
 /Users/david/desktop/event/platforms/android/assets/www/templates/timeline.html \
 /Users/david/desktop/event/platforms/android/ant-build/AndroidManifest.xml \

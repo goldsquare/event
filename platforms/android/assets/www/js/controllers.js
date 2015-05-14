@@ -38,6 +38,16 @@ angular.module('starter.controllers', [])
 
       EventFactory.get($scope, $stateParams);
 
+      $scope.get = function()
+      {
+        EventFactory.get($scope, $stateParams);
+      }
+
+      $scope.getLocation = function(loc)
+      {
+        EventFactory.getLocation($scope, loc);
+
+      }
 
        $scope.like = function (id)
         {

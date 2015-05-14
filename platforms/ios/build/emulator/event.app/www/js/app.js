@@ -36,16 +36,7 @@ angular.module('starter',
     templateUrl: "templates/menu.html",
     controller: 'AppCtrl'
   })
-
-  .state('app.search', {
-    url: "/search",
-    views: {
-      'menuContent': {
-        templateUrl: "templates/search.html"
-      }
-    }
-  })
-
+  
   .state('app.login', {
     url: "/login",
     views: {
